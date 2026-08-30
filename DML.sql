@@ -1,12 +1,5 @@
 # DML (Data Manipulation Language)
 # DML works with the data stored inside tables.
-<<<<<<< HEAD
-=======
-
->>>>>>> e2a4043 (Update DML.sql)
--- =========================================
--- DML COMMANDS PRACTICAL
--- =========================================
 
 -- Delete old database
 DROP DATABASE IF EXISTS CollegeDB;
@@ -75,8 +68,4 @@ WHERE StudentID = 5;
 
 
 -- Display records after deletion
-<<<<<<< HEAD
-SELECT * FROM Students as Updated_student;
-=======
-SELECT * FROM Students as Updated_student;
->>>>>>> e2a4043 (Update DML.sql)
+SELECT * FROM Students ;
